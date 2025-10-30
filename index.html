@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="Americano.jpg" type="image/jpeg" />
+    <link rel="icon" href="images/Americano.jpg" type="image/jpeg" />
     <title>Serene Sips</title>
 
-    <!-- google fonts -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,18 +16,18 @@
 
     <!-- External Stylesheet -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="card.html" />
   </head>
 
   <body>
-    <!-- header section -->
+    <!-- Header Section-->
     <header id="header">
       <h1 class="head">Welcome To Serene Sips</h1>
-
       <p>Indulge in the finest coffee experience crafted just for you.</p>
       <a href="#our-menu">Explore our menu</a>
     </header>
 
-    <!-- navigation -->
+    <!-- Navigation -->
     <nav>
       <a href="#header">Home</a>
       <a href="#our-menu">Menu</a>
@@ -39,9 +39,60 @@
       <!-- Our Menu Section -->
       <section id="our-menu">
         <h2>Our Menu</h2>
+        <p>Menu items will go here.</p>
+        <div class="card-container">
+          <div class="card">
+            <img
+              src="https://serene-sip-v2.vercel.app/images/Americano.jpg"
+              alt=""
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Americano</h4>
+              <p class="card-text">
+                - Strong and black coffee. <br />
+                Perfect for the bold coffee enthusiast. <br />
+                <span class="prize">$2.50</span>
+              </p>
+              <a href="#" class="btn-order">Order</a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://serene-sip-v2.vercel.app/images/Americano.jpg"
+              alt=""
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Americano</h4>
+              <p class="card-text">
+                - Strong and black coffee. <br />
+                Perfect for the bold coffee enthusiast. <br />
+                <span class="prize">$2.50</span>
+              </p>
+              <a href="#" class="btn-order">Order</a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://serene-sip-v2.vercel.app/images/Americano.jpg"
+              alt=""
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Americano</h4>
+              <p class="card-text">
+                - Strong and black coffee. <br />
+                Perfect for the bold coffee enthusiast. <br />
+                <span class="prize">$2.50</span>
+              </p>
+              <a href="#" class="btn-order">Order</a>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <!-- About Us Section -->
+      <!-- About-Us Section -->
       <section id="about-us">
         <h2>About Us</h2>
         <p>Welcome to Serene Sips Café, where every cup tells a story!</p>
@@ -77,21 +128,21 @@
           feedback, or special requests.
         </p>
 
-        <form action="#" method="post">
+        <form>
           <div>
-            <label for="" class="form label">Your Name</label>
+            <label for="" class="form-label">Your Name</label>
             <input type="text" class="form-control" />
           </div>
           <div>
-            <label for="" class="form label">Your Email</label>
+            <label for="" class="form-label">Your Email</label>
             <input type="email" class="form-control" />
           </div>
           <div>
-            <label for="" class="form label">Your Message</label>
-            <textarea class="form-control"></textarea>
+            <label for="" class="form-label">Your Message</label>
+            <textarea name="message" class="form-control"></textarea>
           </div>
           <div>
-            <input class="btn-submit" type="submit" value="Send Message" />
+            <button type="submit" class="btn-submit">Send Message</button>
           </div>
         </form>
       </section>
@@ -99,7 +150,7 @@
 
     <!-- Footer -->
     <footer>
-      <a href="#header">To Top</a>
+      <a href="#header">To top</a>
       <p>&copy; 2025, All rights reserved.</p>
     </footer>
   </body>

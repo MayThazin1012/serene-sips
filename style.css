@@ -120,10 +120,10 @@ footer {
 }
 .card {
   border: 2px solid black;
-  width: 300px;
+  width: 320px;
   background-color: wheat;
   padding: 20px;
-  border-radius: 9px;
+  border-radius: 10px;
 }
 .card-img-top {
   max-width: 100%;
@@ -137,7 +137,8 @@ footer {
   line-height: 1.5;
 }
 .btn-order {
-  padding: 10px;
+  margin-bottom: 5px;
+  padding: 7px;
   background-color: #49281a;
   text-decoration: none;
   color: white;
